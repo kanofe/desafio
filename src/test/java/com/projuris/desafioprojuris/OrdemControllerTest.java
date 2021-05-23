@@ -45,8 +45,6 @@ public class OrdemControllerTest {
     @MockBean
     private OrdemService ordemService;
 
-
-
     @Captor
     private ArgumentCaptor<OrdemCreateDto> argumentCaptor;
 
